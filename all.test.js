@@ -2,6 +2,7 @@ import capitalize from "./capitalize";
 import reverseString from "./reverseString";
 import calculator from "./calculator";
 import caesarCipher from './caesarCipher';
+import analyzeArray from "./analyzeArray";
 
 test("Capitalize a string", () => {
   expect(capitalize("hello world")).toBe("Hello world");
@@ -58,3 +59,10 @@ test("Caesar Cipher", () => {
   expect(caesarCipher("bonjour", -3)).toBe("ylkglro");
   expect(caesarCipher("BONJOUR", -3)).toBe("YLKGLRO")
 } )
+
+test("Analyze array", () => {
+  expect(analyzeArray([1,8,3,4,2,6])).toEqual({average: 4, min: 1, max: 8, length:6});
+  expect(analyzeArray()).toEqual(null);
+  expect(analyzeArray([])).toEqual(null);
+  
+})
