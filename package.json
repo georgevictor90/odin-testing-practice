@@ -1,0 +1,24 @@
+{
+  "name": "odin-testing-practice",
+  "version": "1.0.0",
+  "description": "Assignment from the Odin Project Javascript testing section that requires writing tests for the following functions and making them pass.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/georgevictor90/odin-testing-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/georgevictor90/odin-testing-practice/issues"
+  },
+  "homepage": "https://github.com/georgevictor90/odin-testing-practice#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.18.10",
+    "jest": "^29.0.2"
+  }
+}
